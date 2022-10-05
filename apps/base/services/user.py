@@ -7,6 +7,6 @@ class User(NamedTuple):
     password: int
 
     def __str__(self):
-        return f"Login: {self.user_login}. Email: {self.email}. Password: {self.password}"
-
-
+        return (
+            f"Login: {self.user_login}. Email: {self.email}. Password: {self.password}"
+        )
